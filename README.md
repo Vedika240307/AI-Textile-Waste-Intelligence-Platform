@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Textile Waste Intelligence Platform — Milestone 1
 
 A containerized full-stack platform for tracking textile waste batches through sorting, processing, and recycling, with role-based access control. Built as a foundation for a Milestone 2 computer-vision fiber-classification module.
@@ -64,3 +65,6 @@ Tests spin up a local SQLite database and cover registration/login, JWT auth, an
 - **CV fiber classification**: background worker (Celery + Redis) runs a PyTorch/ResNet model on uploaded batch photos to predict `%Cotton` / `%Polyester` / blends, written to `predicted_composition`.
 - **Circularity Index**: weighted score from condition, contamination, and predicted composition — start rule-based, evolve into a trained regressor.
 - **Dataset ingestion**: endpoints to pull in labeled benchmark datasets for training.
+=======
+# AI-Textile-Waste-Intelligence-Platform
+>>>>>>> 9cd98e3c95689224340f206384f2dc3dc95ad7d4
